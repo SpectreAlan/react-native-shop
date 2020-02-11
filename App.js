@@ -13,7 +13,7 @@ const App: () => React$Node = () => {
   return (
     <>
       <View>
-        <Text>34645645654</Text>
+        <Text>11111</Text>
       </View>
     </>
   );
