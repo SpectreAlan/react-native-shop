@@ -7,22 +7,12 @@
  */
 
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
-
+import Base from './navigator/base';
 const App: () => React$Node = () => {
   return (
     <>
-      <View>
-        <Text>11111</Text>
-      </View>
+      <Base />
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  topView: {
-    backgroundColor: 'red',
-  },
-});
-
 export default App;
